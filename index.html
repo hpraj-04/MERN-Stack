@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Haripriya's Portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="image/logo2.png">
+    <script src="https://kit.fontawesome.com/9eab0c1e4a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="image/logo2.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#academics">Academics</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>II nd Year ECE Student</p>
+                <h1>Hi, I'm <span>Haripriya</span><br>Rajkumar From Aruppukottai</h1>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image/Haripriya.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p style="padding: 50px 0;font-size: large;">Hello! I'm Haripriya, a passionate and driven Electronics and Communication Engineering student at Sri Krishna College of Engineering and Technology, Coimbatore. With a strong foundation in ECE principles and a keen interest in innovation, I enjoy exploring cutting-edge technologies and solving real-world problems.I thrive on learning and experimenting with new tools and concepts, aiming to bridge the gap between hardware and software. My goal is to contribute to impactful projects that make technology more accessible and efficient.
+                        Outside academics, I enjoy Cooking. Let's connect and create something amazing together!</p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('hobbies')">Hobbies</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span style="font-size: large;">Programming Skills</span><br>C++<br>Application Developement Practices<br>Database Management Systems<br>Java<br>Data Structures and Algorithms<br>Advanced Java Programming<br>Python</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="hobbies">
+                            <ul>
+                               <li><span style="font-size: large;">Hobbies</span><br>Cooking<br>Sewing<br>Reading Biographies<br>Watching movies</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span style="font-size: large;">2009 - 2013</span><br>Shri Mathru Vidhyashram Montessori Matriculation School</li>
+                                <li><span style="font-size: large;">2014 - 2022</span><br>Noble Matric Higher Secondary School</li>
+                                <li><span style="font-size: large;">2023 - 2027</span><br>Sri Krishna College of Engineering and Technology</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Front End Development</h2>
+                        <p>Experienced in designing and styling responsive, user-friendly interfaces using HTML and CSS. Proficient in crafting visually appealing layouts and ensuring compatibility across different devices and browsers. Committed to creating seamless and intuitive user experiences through clean and efficient code.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-app-store"></i>
+                        <h2>Application Development</h2>
+                        <p>Proficient in developing robust and scalable software applications using Java and C++. Skilled in implementing object-oriented programming principles to create efficient, maintainable, and user-friendly solutions. Experienced in optimizing application performance and debugging to ensure smooth functionality.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-database"></i>
+                        <h2>Database Management</h2>
+                        <p>Skilled in designing, managing, and optimizing relational databases using Database Management System (DBMS) principles. Proficient in writing SQL queries for efficient data retrieval, manipulation, and analysis. Committed to ensuring data integrity, consistency, and security across systems.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div id="academics">
+            <div class="container">
+                <h1 class="sub-title">My Academics</h1>
+                <div class="academic-list">
+                    <div class="work">
+                        <img src="image/cgpa.jpg">
+                        <div class="layer">
+                            <h3>CGPA</h3>
+                            <p style="font-size: xx-large;">8.71</p>
+
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="image/sih.jpg">
+                        <div class="layer">
+                            <h3>SIH Participation</h3>
+                            <p>I took part in the SIH 2024 and presented our Idea of an Application that turns excess into access as a team of 6</p>
+                            
+                        </div>
+
+                    </div>
+                    <div class="work">
+                        <img src="image/project.png">
+                        <div class="layer">
+                            <h3>Web page</h3>
+                            <p>Created a simple website that dipslays certain information</p>
+                            
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn">See more</a>
+            </div>
+        </div>
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-solid fa-paper-plane"></i>727723euec056@skcet.ac.in</p>
+                        <p><i class="fa-solid fa-phone"></i>9876543210</p>
+                        <div class="social-icons">
+                            <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://x.com/home"><i class="fa-brands fa-x-twitter"></i></a>
+                            <a href="https://in.linkedin.com/in/haripriya-rajkumar-015582290"><i class="fa-brands fa-linkedin-in"></i></a>
+                            
+                        </div>
+                        <a href="image/Cv.pdf" download class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+
+                        </form>
+                        <span id="msg">Hello!! Thank you for visiting my portfolio❤️</span>
+                    </div>
+            
+                </div>
+
+            </div>
+            <div class="copyright">
+                <p>Copyright © Haripriya<i class="fa-solid fa-gem"></i></p>
+            </div>
+        </div>
+<script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab"); 
+
+            
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwalpbrTFeK26jNp4kDCri533Uyy5LsCxhU6ksnzflwMsWcbAsl0dOrYCX0__27x1Nt/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
